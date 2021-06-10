@@ -75,7 +75,7 @@ let candidateF = {
 let animals = [candidateA,candidateB,candidateC,candidateD,candidateE,candidateF];
   
 let crew = buildCrewArray(chosenID, animals);
-
+console.log(crew)
 // Use a template literal to print, “____, ____ and ____ are going to space!” Fill in the blanks with the names of the selected animals.
 
 console.log(`${crew[0].name}, ${crew[1].name}, and ${crew[2].name} are going to space!`);
